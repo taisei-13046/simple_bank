@@ -8,6 +8,7 @@ import (
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
+// call automatically first
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }

@@ -1,5 +1,6 @@
 version: "1"
 packages:
+    # 生成されるgoのpackage名
     - name: "db"
       path: "./db/sqlc/"
       queries: "./db/query"
